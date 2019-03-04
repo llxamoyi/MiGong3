@@ -1,0 +1,47 @@
+﻿生成启动时间为 2017/5/10 22:43:42。
+     1>项目“D:\Study\专业课\自编程序\迷宫\MiGong3\MiGong3\MiGong3.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\MiGong3.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\IDE\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\MiGong3.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\IDE\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\MiGong3.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MiGong3.cpp
+         MiGong3.cpp
+     1>d:\study\专业课\自编程序\迷宫\migong3\migong3\migong3.cpp(174): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 d:\ide\microsoft visual studio 10.0\vc\include\conio.h(130) : 参见“kbhit”的声明
+     1>d:\study\专业课\自编程序\迷宫\migong3\migong3\migong3.cpp(212): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 d:\ide\microsoft visual studio 10.0\vc\include\conio.h(130) : 参见“kbhit”的声明
+     1>d:\study\专业课\自编程序\迷宫\migong3\migong3\migong3.cpp(250): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 d:\ide\microsoft visual studio 10.0\vc\include\conio.h(130) : 参见“kbhit”的声明
+     1>d:\study\专业课\自编程序\迷宫\migong3\migong3\migong3.cpp(290): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\ide\microsoft visual studio 10.0\vc\include\conio.h(128) : 参见“getch”的声明
+     1>d:\study\专业课\自编程序\迷宫\migong3\migong3\migong3.cpp(320): warning C4244: “=”: 从“LONG”转换到“SHORT”，可能丢失数据
+     1>d:\study\专业课\自编程序\迷宫\migong3\migong3\migong3.cpp(321): warning C4244: “=”: 从“LONG”转换到“SHORT”，可能丢失数据
+     1>d:\study\专业课\自编程序\迷宫\migong3\migong3\migong3.cpp(519): warning C4101: “j”: 未引用的局部变量
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /nologo /fo"Debug\MiGong3.res" MiGong3.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\MiGong3.exe.embed.manifest.res" Debug\MiGong3_manifest.rc 
+       Link:
+         d:\IDE\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Study\专业课\自编程序\迷宫\MiGong3\Debug\MiGong3.exe" /INCREMENTAL /NOLOGO user32.lib gdi32.lib /MANIFEST /ManifestFile:"Debug\MiGong3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Study\专业课\自编程序\迷宫\MiGong3\Debug\MiGong3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Study\专业课\自编程序\迷宫\MiGong3\Debug\MiGong3.lib" /MACHINE:X86 Debug\MiGong3.res
+         Debug\MiGong3.exe.embed.manifest.res
+         Debug\MiGong3.obj
+         Debug\stdafx.obj
+       Manifest:
+         正在删除文件“Debug\MiGong3.exe.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\MiGong3.exe.embed.manifest" /manifest Debug\MiGong3.exe.intermediate.manifest "d:\IDE\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\MiGong3.exe.embed.manifest.res" Debug\MiGong3_manifest.rc 
+       LinkEmbedManifest:
+         d:\IDE\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Study\专业课\自编程序\迷宫\MiGong3\Debug\MiGong3.exe" /INCREMENTAL /NOLOGO user32.lib gdi32.lib /MANIFEST /ManifestFile:"Debug\MiGong3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Study\专业课\自编程序\迷宫\MiGong3\Debug\MiGong3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Study\专业课\自编程序\迷宫\MiGong3\Debug\MiGong3.lib" /MACHINE:X86 Debug\MiGong3.res
+         Debug\MiGong3.exe.embed.manifest.res
+         Debug\MiGong3.obj
+         Debug\stdafx.obj
+         MiGong3.vcxproj -> D:\Study\专业课\自编程序\迷宫\MiGong3\Debug\MiGong3.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\MiGong3.unsuccessfulbuild”。
+         正在对“Debug\MiGong3.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Study\专业课\自编程序\迷宫\MiGong3\MiGong3\MiGong3.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.97
